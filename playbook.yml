@@ -1,0 +1,8 @@
+---
+
+- hosts: target_machine
+  tasks:
+    - name: Create folder using Shell Module
+      file:
+        path: /samplefolder/
+        state: directory
