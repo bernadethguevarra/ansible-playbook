@@ -1,6 +1,6 @@
 - name: Create folder
   file:
-    path:"/tmp/{{ foldername }}"
+    path:"{{ folderlocation}}"
     state: directory
 
 - name: Check if {{ folder2name }} exists
